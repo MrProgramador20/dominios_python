@@ -75,23 +75,23 @@
   </types>
   <items>
     <item id="bae38e3f928c47d89e2561e568249ddc" cid="PROP024" type="property" name="1" owner="b3bbb22d4cab4aff8024f8b07c231fd4" creator="" creation-date="02/13/2024 14:17:36" visibility="undefined">
-      <structural-feature type="pago" type-id="Class:f118843b33734bbabb9dbdc58b75e244" />
+      <structural-feature multiplicity="se registra para" type="pago" type-id="Class:f118843b33734bbabb9dbdc58b75e244" />
     </item>
     <item id="8dd80e254bc948cb9d7e32d82ad16b2b" cid="PROP019" type="property" owner="25266372ab9546abb2af08ecce36510f" creator="" creation-date="02/13/2024 14:09:11" visibility="undefined">
-      <structural-feature multiplicity="1..*" type="Cliente" type-id="Class:2d2d96b98b4541cb8798e722b1452d2d" />
+      <structural-feature type="Cliente" type-id="Class:2d2d96b98b4541cb8798e722b1452d2d" />
       <property aggregation="composite" />
     </item>
     <item id="44fbc6bbf35242d5b49674842017b6d3" cid="PROP016" type="property" name="se relaciona a" owner="fcb7fe3986324ce1b79e7cc0af0e705e" creator="" creation-date="02/13/2024 14:05:09" visibility="undefined">
       <structural-feature multiplicity="1" type="Cupo" type-id="Class:069a2fcf0fef4ad18261734d332d7da5" />
     </item>
     <item id="a3470b8d9dc543c68d4f9ad9ab81fe07" cid="PROP020" type="property" owner="25266372ab9546abb2af08ecce36510f" creator="" creation-date="02/13/2024 14:09:11" visibility="undefined">
-      <structural-feature type="Carro" type-id="Class:be94ca72d8bf400695e939a2b891c67c" />
+      <structural-feature multiplicity="1..*" type="Carro" type-id="Class:be94ca72d8bf400695e939a2b891c67c" />
     </item>
     <item id="da1e4e2f115f4bc287d06f617b8da960" cid="PROP015" type="property" name="*" owner="fcb7fe3986324ce1b79e7cc0af0e705e" creator="" creation-date="02/13/2024 14:05:09" visibility="undefined">
       <structural-feature multiplicity="se hace a" type="pago" type-id="Class:f118843b33734bbabb9dbdc58b75e244" />
     </item>
     <item id="f7b8d503a258422ab8e34e98d76abc1e" cid="PROP023" type="property" name="se relaciona a" owner="b3bbb22d4cab4aff8024f8b07c231fd4" creator="" creation-date="02/13/2024 14:17:36" visibility="undefined">
-      <structural-feature type="Carro" type-id="Class:be94ca72d8bf400695e939a2b891c67c" />
+      <structural-feature multiplicity="1" type="Carro" type-id="Class:be94ca72d8bf400695e939a2b891c67c" />
     </item>
   </items>
   <models>
@@ -108,7 +108,7 @@
       </meta>
       <abstract-items />
       <sub-models />
-      <diagram type="uml-class" id="p99d8b854afc343e6846adeeb9a44b05e_428737066" name="ClassDiagram1" order-index="1" uid="" auto-routed-paths="false" default-line-style="default">
+      <diagram type="uml-class" id="p99d8b854afc343e6846adeeb9a44b05e_428737066" name="ClassDiagram1" order-index="1" uid="" auto-routed-paths="false" default-line-style="default" view-location="-84,19" zoom="0.8">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -248,7 +248,7 @@ Permite definir el papel que juega una entidad en una relacion de asociacion</co
             <relation from="2d2d96b98b4541cb8798e722b1452d2d" from-iid="f441aef137ee44d0a38c21e257ecff30" to="be94ca72d8bf400695e939a2b891c67c" to-iid="6c5ce671b25c48129604d7f7120592f4" />
           </item>
           <item id="b3bbb22d4cab4aff8024f8b07c231fd4" iid="58af495bfcf64c9d9d6ba09e3fd4656a" creation-date="02/13/2024 14:17:36" order-index="7" type="relation">
-            <layout start-role-position="22,59" end-role-position="20,-31" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="192" y1="263" x2="192" y2="425" start-border-pos="0.6258741258741258" end-border-pos="0.12379807692307693" start-local-pos="71" end-local-pos="51.5" name-position="0,20">
+            <layout start-role-position="22,59" end-role-position="20,-31" start-multiplicity-position="24,-36" end-multiplicity-position="20,64" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="192" y1="263" x2="192" y2="425" start-border-pos="0.6258741258741258" end-border-pos="0.12379807692307693" start-local-pos="71" end-local-pos="51.5" name-position="0,20">
               <points>
                 <point x="192" y="263" />
                 <point x="192" y="425" />
